@@ -1,0 +1,44 @@
+.modal-view-ricipe {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    background-color: #fff;
+  }
+  .modal-view-ricipe .description-text,
+  .modal-view-ricipe .ingredients {
+    display: flex;
+  }
+  .modal-view-ricipe .image-text {
+    position: static;
+    transform: none;
+  }
+  .modal-view-ricipe .image-kitchen {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  .modal-view-ricipe .ingredients li:not(:last-child) {
+    margin-right: 15px;
+  }
+  .modal-view-ricipe .ingredients li img {
+    width: 50px;
+    height: 50px;
+  }
+  .close-recipe {
+    background-color: #96f30b;
+    padding: 5px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+  }
+  .close-recipe:hover {
+    background-color: red;
+  }

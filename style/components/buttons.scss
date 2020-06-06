@@ -1,0 +1,14 @@
+.btn-view-recipe {
+    display: none;
+  }
+.btn-view-recipe {
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: #96f30b;
+    font-size: 18px;
+    &:hover {
+    background-color: #f02f0d;
+    }
+  }
+  
+  

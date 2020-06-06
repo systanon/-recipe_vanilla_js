@@ -1,0 +1,41 @@
+#form-recipe {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -5;
+    background-color: #fff;
+    padding: 25px;
+    opacity: 0;
+    transition: opacity 1s ease-out 0.5s;
+    background: linear-gradient(45deg, #f7e4bb, #9ce2bb);
+  }
+  input[type='text'],
+  textarea {
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  input[type='text']:hover,
+  textarea:hover {
+    background: linear-gradient(45deg, #f7e4bb, #9ce2bb);
+  }
+  input[type='submit'],
+  input[type='reset'] {
+    margin: 10px 0;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 10px;
+    background: radial-gradient(#06f56f, #0dbb5a);
+  }
+  input[type='submit']:hover,
+  input[type='reset']:hover {
+    background: radial-gradient(#9fe2bb, #bbbcf7);
+  }
+  #form-recipe > textarea {
+    width: 200px;
+    height: 80px;
+    resize: none;
+  }

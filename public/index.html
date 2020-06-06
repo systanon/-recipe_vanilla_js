@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="main">
+        <div class="menu"></div>
+        <div class="content-list" id="content-list">
+          <div class="content-menu">
+            <button id="create-recipe">add new recipe</button>
+            <form id="form-recipe">
+              <label for="url">url picture</label>
+              <input type="text" id="url" name="url" />
+              <label for="recipe-text">text</label>
+              <input type="text" id="recipe-text" name="recipe_text" />
+              <label for="description">description</label>
+              <textarea id="discription" name="description"></textarea>
+              <input type="submit" value="add" id="add" />
+              <input type="reset" value="clear" />
+              <input type="reset" value="cancel" id="cancel" />
+            </form>
+          </div>
+        </div>
+        <div class="content-item" id="content-item"></div>
+      </div>
+    </div>
+  </body>
+</html>

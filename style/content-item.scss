@@ -1,0 +1,45 @@
+
+.content-item .description-text,
+.content-item .ingredients {
+  display: inline-block;
+}
+.content-item .image-wrap:hover {
+  transform: none;
+}
+.content-item .ingredients li {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+.content-item .ingredients li img {
+  width: 50px;
+  height: 50px;
+}
+.content-item .image-kitchen {
+  width: 100%;
+}
+.content-item .image-text {
+  position: relative;
+}
+.content-item .image-wrap {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f7e4bb;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.content-item .btn-view-recipe {
+  display: block;
+}
+.image-text-out,
+.description-text {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #f44336 20%, #10cc63 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
